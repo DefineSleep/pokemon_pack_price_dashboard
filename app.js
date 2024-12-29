@@ -1,12 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => { // needed in order to load the dom first then start js 
   
-    const packContainer = document.querySelector('.pack-container'); // looks for the first element in the document with the css cvlass pack container , this element is where we insert our pack tiles
-    const modal = document.querySelector('.pack-details-modal'); // looks for the first modal element that will be used to show detailed information about a selected pack
+    const packContainer = document.querySelector('.pack-container'); 
+    const modal = document.querySelector('.pack-details-modal');  
 
-    // by storing these in constant we can easily reference and amnupulate these elements later
   
-    // Fetch data from a JSON file or an API endpoint
-    fetch('packs.json') // If using a backend API: fetch('https://yourapi.com/packs')
+
+    fetch('packs.json') // if using API: fetch('https://yourapi.com/packs')
       .then(response => response.json())
       .then(data => {
         data.forEach(pack => {
