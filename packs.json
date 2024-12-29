@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "name": "Base Set Booster Pack",
+      "price": 400.00,
+      "img": "images/base-set.jpg",
+      "description": "The original Base Set booster from 1999..."
+    },
+    {
+      "id": 2,
+      "name": "Jungle Booster Pack",
+      "price": 200.00,
+      "img": "images/jungle.jpg",
+      "description": "A Jungle expansion pack featuring..."
+    }
+  ]
+  
