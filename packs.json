@@ -12,6 +12,13 @@
       "price": 200.00,
       "img": "images/jungle.jpg",
       "description": "A Jungle expansion pack featuring..."
+    },
+    {
+      "id": 3,
+      "name": "3rd Booster Pack",
+      "price": 200.00,
+      "img": "images/jungle.jpg",
+      "description": "A 3rd booster pack featuring..."
     }
   ]
   
