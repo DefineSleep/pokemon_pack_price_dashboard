@@ -14,25 +14,30 @@ body {
   .pack-container {
     display: flex;
     overflow-x: auto;
-    padding: 1rem;
-    gap: 1rem;
+    /* padding: 1rem; */
   }
   
-  .pack-tile {
-    background: #fff;
-    border-radius: 8px;
-    width: 150px;
-    flex: 0 0 auto;
-    padding: 1rem;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    cursor: pointer;
-    text-align: center;
-  }
+.pack-tile {
+  width: 200px;
+  /* no fixed height needed if images are consistent in height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  margin: 1rem;
+}
+
+  
   
   .pack-tile img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 0.5rem;
+    width: 100%;          /* Fill tile width */
+    height: 150px;        /* Fix the height so every image is the same vertical size */
+    object-fit: cover;    /* Crop or “zoom in” to fill the space if aspect ratios differ */
+    display: block;       /* Remove any default inline spacing */
   }
   
   .pack-details-modal {

@@ -1,24 +1,74 @@
 [
     {
       "id": 1,
-      "name": "Base Set Booster Pack",
-      "price": 400.00,
-      "img": "images/base-set.jpg",
+      "name": "Base Set 1",
+      "msrp": 400.00,
+      "current_price": 400.00,
+      "img": "images/base_set_1.jpg",
       "description": "The original Base Set booster from 1999..."
     },
     {
       "id": 2,
-      "name": "Jungle Booster Pack",
-      "price": 200.00,
-      "img": "images/jungle.jpg",
-      "description": "A Jungle expansion pack featuring..."
+      "name": "Jungle",
+      "msrp": 400.00,
+      "current_price": 200.00,
+      "img": "images/jungle.png",
+      "description": "Main Series Expansion, 64 cards "
     },
+
     {
       "id": 3,
-      "name": "3rd Booster Pack",
-      "price": 200.00,
-      "img": "images/jungle.jpg",
+      "name": "Fossil",
+      "msrp": 400.00,
+      "current_price": 200.00,
+      "img": "images/fossil.png",
+      "description": "A 3rd booster pack featuring..."
+    },
+
+
+    {
+      "id": 4,
+      "name": "Base Set 2",
+      "msrp": 400.00,
+      "current_price": 200.00,
+      "img": "images/base_set_2.png",
+      "description": "A 3rd booster pack featuring..."
+    },
+    {
+      "id": 5,
+      "name": "Team Rocket",
+      "msrp": 400.00,
+      "current_price": 200.00,
+      "img": "images/team_rocket.png",
+      "description": "A 3rd booster pack featuring..."
+    },
+    {
+      "id": 6,
+      "name": "Gym Heroes",
+      "msrp": 400.00,
+      "current_price": 200.00,
+      "img": "images/gym_heroes.png",
       "description": "A 3rd booster pack featuring..."
     }
+    ,    {
+      "id": 4,
+      "name": "Base Set 2",
+      "msrp": 400.00,
+      "current_price": 200.00,
+      "img": "images/base_set_2.png",
+      "description": "A 3rd booster pack featuring..."
+    }
+    ,    {
+      "id": 4,
+      "name": "Base Set 2",
+      "msrp": 400.00,
+      "current_price": 200.00,
+      "img": "images/base_set_2.png",
+      "description": "A 3rd booster pack featuring..."
+    }
+
+
+
+
   ]
   
