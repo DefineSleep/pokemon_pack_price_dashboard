@@ -48,24 +48,33 @@
       "msrp": 400.00,
       "current_price": 200.00,
       "img": "images/gym_heroes.png",
-      "description": "A 3rd booster pack featuring..."
+      "description": "132 cards"
+    }
+    ,    {
+      "id": 7,
+      "name": "Gym Challenge",
+      "msrp": 400.00,
+      "current_price": 200.00,
+      "img": "images/gym_challenge.png",
+      "description": "132 cards"
     }
     ,    {
       "id": 4,
-      "name": "Base Set 2",
+      "name": "Base Set ",
+      "msrp": 400.00,
+      "current_price": 200.00,
+      "img": "images/base_set_2.png",
+      "description": "A 3rd booster pack featuring..."
+    },{
+      "id": 4,
+      "name": "Base Set ",
       "msrp": 400.00,
       "current_price": 200.00,
       "img": "images/base_set_2.png",
       "description": "A 3rd booster pack featuring..."
     }
-    ,    {
-      "id": 4,
-      "name": "Base Set 2",
-      "msrp": 400.00,
-      "current_price": 200.00,
-      "img": "images/base_set_2.png",
-      "description": "A 3rd booster pack featuring..."
-    }
+
+
 
 
 

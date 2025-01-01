@@ -33,12 +33,12 @@ body {
 
   
   
-  .pack-tile img {
-    width: 100%;          /* Fill tile width */
-    height: 150px;        /* Fix the height so every image is the same vertical size */
-    object-fit: cover;    /* Crop or “zoom in” to fill the space if aspect ratios differ */
-    display: block;       /* Remove any default inline spacing */
-  }
+ .pack-tile img {
+   width: 100%;          /* Fill tile width */
+   height: 150px;        /* Fix the height so every image is the same vertical size */
+   object-fit: cover;    /* Crop or “zoom in” to fill the space if aspect ratios differ */
+   display: block;       /* Remove any default inline spacing */
+}
   
   .pack-details-modal {
     position: fixed;
